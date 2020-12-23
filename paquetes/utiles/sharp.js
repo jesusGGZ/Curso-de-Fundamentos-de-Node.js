@@ -4,4 +4,4 @@ const sharp = require('sharp');
 sharp('./original.png')
     .resize(80) // Redimencionar
     .grayscale // blanco y negro
-    .toFile('resized.png'); // guardar imagen
+    .toFile('resized.png'); // Nombre de la nueva imagen
